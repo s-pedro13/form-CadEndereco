@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastro de Endereço</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Cadastro de Endereço</h2>
+    <form action="#">
+        <div class="form-group">
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep" placeholder="CEP..." required>
+    </div>
+    <div class="form-group">
+        <label for="rua">Rua</label>
+        <input type="text" id="logradouro" name="rua" placeholder="Rua..." required>
+    </div>
+    <div class="form-group">
+        <label for="numero">Nº</label>
+        <input type="number" id="numero" name="numero" placeholder="N°..." required>
+    </div>
+    <div class="form-group">
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" name="bairro" placeholder="Bairro..." required>
+    </div>
+    <!-- BLOCO PARA DADOS DE CIDADE E ESTADO -->
+    <div class="form-group">
+        <label for="complemento">Complemento</label>
+        <input type="text" id="complemento" name="complemento" placeholder="Complemento...">
+    </div>
+    <div class="form-row">
+    <div class="form-group">
+        <label for="cidade">Cidade</label>
+        <input type="text" id="localidade" name="cidade" placeholder="Cidade..." required>
+    </div>
+    <div class="form-group">
+        <label for="estado">Estado</label>
+        <input type="text" id="uf" name="estado" placeholder="Estado..." required>
+        </div>
+    </div>
+
+    <button type="submit">Entrar</button>
+    </form>
+    </div>
+</body>
+</html>
