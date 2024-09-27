@@ -21,6 +21,7 @@ O Cadastro de Endereço foi criado para facilitar a inserção de dados de ender
 - **Alertas:** Informa se o CEP não for encontrado ou se for inválido.
 ## Interface
 ![interface](img/cadEndereco.png)
+![interface](img/cep.gif)
 
 A interface é bem simples e fácil de usar, feita para ser responsiva e amigável. O formulário fica centralizado na tela e os campos estão organizados para facilitar a inserção de dados.
 

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #b3d9ff, #e6ccff); /* Degradê de azul (#007BFF) para roxo (#800080) */
+    background: linear-gradient(50deg, #b3d9ff, #e6ccff); /* Degradê de azul (#007BFF) para roxo (#800080) */
     display: flex;
     justify-content: center;
     align-items: center;
