@@ -1,43 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #b3d9ff, #e6ccff); /* Degradê de azul (#007BFF) para roxo (#800080) */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-}
-.form-container {
+ }
+ .form-container {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 350px;
-}
-h2 {
+ }
+ h2 {
     text-align: center;
-}
-.form-group {
+ }
+ .form-group {
     margin-bottom: 15px;
-}
-.form-group label {
+ }
+ .form-group label {
     display: block;
     margin-bottom: 5px;
-}
-.form-group input {
+ }
+ .form-group input {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-}
-.form-row {
+ }
+ .form-row {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-}
-.form-row .form-group {
+ }
+ .form-row .form-group {
     flex: 1;
-}
-button {
+ }
+ button {
     width: 100%;
     padding: 10px;
     background-color: #007BFF;
@@ -45,7 +45,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-button:hover {
+ }
+ button:hover {
     background-color: #0056b3;
-}
+ }
